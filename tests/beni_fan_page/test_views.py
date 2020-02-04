@@ -1,6 +1,5 @@
 """ test_views.py"""
 
-
 def test_index_ok(client):
     """ testing to get 200 server response"""
     # Make a GET request to / and store the response object
