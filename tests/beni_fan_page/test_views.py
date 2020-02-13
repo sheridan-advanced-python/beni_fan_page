@@ -1,5 +1,5 @@
 """ test_views.py"""
-from django.test import Client
+#from django.test import Client
 def test_index_ok(client):
     """ testing to get 200 server response"""
     # Make a GET request to / and store the response object
