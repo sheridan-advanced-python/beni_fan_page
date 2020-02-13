@@ -4,7 +4,7 @@ def test_index_ok(client):
     """ testing to get 200 server response"""
     # Make a GET request to / and store the response object
     # using the Django test client.
-    client = Client()
+    #client = Client()
     response = client.get('/')
     # Assert that the status_code is 200 (OK)
     assert response.status_code == 200
